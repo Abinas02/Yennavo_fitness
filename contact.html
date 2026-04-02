@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yennavo Fitness | Contact & Sign Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">Yennavo<span>Fitness</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="plans.html">Plans</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Contact & Sign Up</p>
+        <h1>Start Your Fitness Journey</h1>
+        <p>Send your details and our team will get in touch within one business day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="panel reveal">
+          <h2>Visit Us</h2>
+          <p>Yennavo Fitness Studio<br>101 Iron Street, City Center</p>
+          <p><strong>Phone:</strong> +1 (555) 128-9000<br><strong>Email:</strong> hello@Yennavo.com</p>
+          <p><strong>Hours:</strong><br>Mon-Fri: 5:30 AM - 10:00 PM<br>Sat-Sun: 7:00 AM - 8:00 PM</p>
+        </div>
+        <form class="panel form-card reveal">
+          <h2>Join Now</h2>
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="+1 (555) 555-5555" required>
+
+          <label for="plan">Preferred Plan</label>
+          <select id="plan" name="plan">
+            <option>Starter</option>
+            <option>Performance</option>
+            <option>Elite</option>
+          </select>
+
+          <label for="message">Goals</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you want to achieve"></textarea>
+
+          <button type="submit" class="btn btn-primary full">Submit Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Yennavo Fitness Studio</p>
+      <p>See you in the studio.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
